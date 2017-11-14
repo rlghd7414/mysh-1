@@ -1,11 +1,12 @@
 #include "signal_handlers.h"
-
+#include <stdio.h>
+#include <signal.h>
 void catch_sigint(int signalNo)
 {
-  // TODO: File this!
+  fprintf(stderr, "\n");  
 }
 
 void catch_sigtstp(int signalNo)
 {
-  // TODO: File this!
+  fprintf(stderr, "\n");
 }
